@@ -1,22 +1,8 @@
 {
   "name": "wikistack",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "wikipedia clone",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon /mnt/c/users/'vincent tse'/desktop/wikistack/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Greashun/wikistack.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Greashun/wikistack/issues"
-  },
-  "homepage": "https://github.com/Greashun/wikistack#readme",
   "dependencies": {
     "express": "^4.17.1",
     "html-template-tag": "^3.2.0",
@@ -25,5 +11,20 @@
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.19.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesokolowski/wikistack.git"
+  },
+  "author": "A Sokolowski & V Tse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aesokolowski/wikistack/issues"
+  },
+  "homepage": "https://github.com/aesokolowski/wikistack#readme"
 }
