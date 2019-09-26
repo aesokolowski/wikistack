@@ -1,0 +1,24 @@
+{
+  "name": "wikistack",
+  "version": "0.0.1",
+  "description": "wikipedia clone",
+  "main": "index.js",
+  "dependencies": {
+    "morgan": "^1.9.1",
+    "sequelize": "^5.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesokolowski/wikistack.git"
+  },
+  "author": "A Sokolowski & V Tse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aesokolowski/wikistack/issues"
+  },
+  "homepage": "https://github.com/aesokolowski/wikistack#readme"
+}
