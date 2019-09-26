@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /mnt/c/users/'vincent tse'/desktop/wikistack/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/Greashun/wikistack#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "html-template-tag": "^3.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
     "sequelize": "^5.19.0"
   }
 }
