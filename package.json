@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Greashun/wikistack/issues"
   },
-  "homepage": "https://github.com/Greashun/wikistack#readme"
+  "homepage": "https://github.com/Greashun/wikistack#readme",
+  "dependencies": {
+    "sequelize": "^5.19.0"
+  }
 }
